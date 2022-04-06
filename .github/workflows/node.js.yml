@@ -31,11 +31,11 @@ jobs:
     - name: Delete answers branches
       uses: dawidd6/action-delete-branch@v3.1.0
       with:
-        branches: latest
+        branches: latest-${{ matrix.node-version }}
         soft_fail: true
     - name: Save answers to different branch
       uses: sylvanld/action-storage@v1
       with:
-        storage-branch: latest
+        storage-branch: latest-${{ matrix.node-version }}
         src: /*
         dst: /
