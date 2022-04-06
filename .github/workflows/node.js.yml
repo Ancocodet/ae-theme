@@ -28,6 +28,7 @@ jobs:
         cache: 'npm'
     - run: npm ci
     - run: npm run production --if-present
+    - run: npx rimraf node_modules
     - name: Delete answers branches
       uses: dawidd6/action-delete-branch@v3.1.0
       with:
@@ -37,5 +38,5 @@ jobs:
       uses: sylvanld/action-storage@v1
       with:
         storage-branch: latest-${{ matrix.node-version }}
-        src: /^((?!node_modules)(?!resources).)*$
+        src: /*
         dst: /
