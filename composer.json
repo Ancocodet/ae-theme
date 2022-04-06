@@ -1,0 +1,11 @@
+{
+    "name": "ae/theme",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ancozockt Enviroment",
+            "email": "support@ancozockt.de"
+        }
+    ],
+    "require": {}
+}
