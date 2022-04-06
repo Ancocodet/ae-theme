@@ -38,5 +38,5 @@ jobs:
       uses: sylvanld/action-storage@v1
       with:
         storage-branch: latest-${{ matrix.node-version }}
-        src: /*
+        src: *
         dst: /
