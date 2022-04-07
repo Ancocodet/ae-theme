@@ -18,9 +18,8 @@
             <?php
             wp_nav_menu(
                 array(
-                    'container_id'    => 'footer-menu',
                     'menu_class'      => 'md:flex-auto md:flex-row-reverse mt-2 flex-row flex',
-                    'theme_location'  => 'primary',
+                    'theme_location'  => 'footer',
                     'li_class'        => 'w-6 mx-5',
                     'fallback_cb'     => false,
                 )
