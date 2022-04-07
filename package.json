@@ -1,14 +1,12 @@
 {
-	"name": "tailpress",
-	"version": "3.0.0",
-	"description": "Boilerplate WordPress theme with Tailwind CSS.",
-	"author": "Jeffrey van Rossum",
+	"name": "ancobloggt",
+	"version": "1.0",
+	"description": "Ancobloggt WordPress Theme",
+	"author": "Ancocodet",
 	"repository": {
 		"type": "git",
-		"url": "https://github.com/jeffreyvr/tailpress"
+		"url": "https://github.com/ancocodet/ae-theme"
 	},
-	"theme_uri": "https://github.com/jeffreyvr/tailpress",
-	"author_uri": "https://vanrossum.dev",
 	"text_domain": "tailpress",
 	"license": "MIT",
 	"scripts": {
