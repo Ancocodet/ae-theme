@@ -25,13 +25,13 @@
 						<?php if ( has_custom_logo() ) { ?>
                             <?php the_custom_logo(); ?>
 						<?php } else { ?>
-							<div class="text-lg uppercase">
+							<div class="text-white text-lg uppercase">
 								<a href="<?php echo get_bloginfo( 'url' ); ?>" class="font-extrabold text-lg uppercase">
 									<?php echo get_bloginfo( 'name' ); ?>
 								</a>
 							</div>
 
-							<p class="text-sm font-light text-gray-600">
+							<p class="text-sm font-light text-gray-200">
 								<?php echo get_bloginfo( 'description' ); ?>
 							</p>
 
@@ -58,7 +58,7 @@
 					array(
 						'container_id'    => 'primary-menu',
 						'container_class' => 'hidden bg-gray-100 mt-4 p-4 lg:mt-0 lg:p-0 lg:bg-transparent lg:block',
-						'menu_class'      => 'lg:flex lg:-mx-4',
+						'menu_class'      => 'text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium',
 						'theme_location'  => 'primary',
 						'li_class'        => 'lg:mx-4',
 						'fallback_cb'     => false,
