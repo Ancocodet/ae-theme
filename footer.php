@@ -13,23 +13,23 @@
         <div class=" max-w-6xl m-auto text-gray-500 flex flex-wrap justify-right">
             <div class="p-5 w-60">
                 <div class="text-xs uppercase text-gray-500 font-medium">Email us</div>
-                <a class="my-3 block" href="mailto:info@ancozockt.de?subject=Contact&amp;body=Dont´t change the Subject!">info@ancozockt.de<span class="text-teal-600 text-xs p-1">general</span></a>
-                <a class="my-3 block" href="mailto:support@ancozockt.de?subject=Support Request&amp;body=Dont´t change the Subject!">support@ancozockt.de<span class="text-teal-600 text-xs p-1">support</span></a>
+                <a class="my-3 block" href="mailto:info@ancozockt.de?subject=Contact&amp;body=Dont´t change the Subject!">info@ancozockt.de<span class="ttext-gray-600 text-xs p-1">general</span></a>
+                <a class="my-3 block" href="mailto:support@ancozockt.de?subject=Support Request&amp;body=Dont´t change the Subject!">support@ancozockt.de<span class="text-gray-600 text-xs p-1">support</span></a>
             </div>
             <div class="p-5 w-48 ">
                 <div class="text-xs uppercase text-gray-500 font-medium">Home</div>
-                <a class="my-3 block" href="/#">Team <span class="text-teal-600 text-xs p-1"></span></a>
-                <a class="my-3 block" href="/#">Partners <span class="text-teal-600 text-xs p-1"></span></a>
+                <a class="my-3 block" href="/#">Team <span class="text-gray-600 text-xs p-1"></span></a>
+                <a class="my-3 block" href="/#">Partners <span class="text-gray-600 text-xs p-1"></span></a>
             </div>
             <div class="p-5 w-48 ">
                 <div class="text-xs uppercase text-gray-500 font-medium">Other</div>
-                <a class="my-3 block" rel="me" href="https://dewp.space/@ancozockt">Mastodon <span class="text-teal-600 text-xs p-1">Social</span></a>
-                <a class="my-3 block" href="https://github.com/Ancocodet">GitHub <span class="text-teal-600 text-xs p-1">Source</span></a>
+                <a class="my-3 block" rel="me" href="https://dewp.space/@ancozockt">Mastodon <span class="text-gray-600 text-xs p-1">social</span></a>
+                <a class="my-3 block" href="https://github.com/Ancocodet">GitHub <span class="text-gray-600 text-xs p-1">source</span></a>
             </div>
             <div class="p-5 w-48 ">
                 <div class="text-xs uppercase text-gray-500 font-medium">Support</div>
-                <a class="my-3 block" href="/#">Help Center <span class="text-teal-600 text-xs p-1"></span></a>
-                <a class="my-3 block" href="/#">Contact Form <span class="text-teal-600 text-xs p-1"></span></a>
+                <a class="my-3 block" href="/#">Help Center <span class="text-gray-600 text-xs p-1"></span></a>
+                <a class="my-3 block" href="/#">Contact Form <span class="text-gray-600 text-xs p-1"></span></a>
             </div>
         </div>
     </div>
