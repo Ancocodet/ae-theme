@@ -23,7 +23,7 @@
             </div>
             <div class="p-5 w-48 ">
                 <div class="text-xs uppercase text-gray-500 font-medium">Other</div>
-                <a class="my-3 block" href="https://dewp.space/@ancozockt">Mastodon <span class="text-teal-600 text-xs p-1">Social</span></a>
+                <a class="my-3 block" rel="me" href="https://dewp.space/@ancozockt">Mastodon <span class="text-teal-600 text-xs p-1">Social</span></a>
                 <a class="my-3 block" href="https://github.com/Ancocodet">GitHub <span class="text-teal-600 text-xs p-1">Source</span></a>
             </div>
             <div class="p-5 w-48 ">
