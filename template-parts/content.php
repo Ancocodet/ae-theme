@@ -16,7 +16,7 @@
 		<div class="entry-content">
 			<?php
 			/* translators: %s: Name of current post */
-			the_content(
+			the_excerpt(
 				sprintf(
 					__( 'Continue reading %s', 'tailpress' ),
 					the_title( '<span class="screen-reader-text">"', '"</span>', false )
