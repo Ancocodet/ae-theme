@@ -65,8 +65,14 @@ if ( post_password_required() ) {
 	<?php
 	comment_form(
 		array(
+            'fields' => array(
+                    'author' => '<input type="text" id="author" name="author" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Name" required="">',
+                    'email' => '<input type="email" id="email" name="email" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="E-Mail" required="">',
+                    'url' => '<input type="text" id="url" name="url" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" placeholder="Website" required="">',
+                    'cookie' => '<label class="inline-flex items-center mt-3"><input id="wp-comment-cookies-consent" name="wp-comment-cookies-consent" type="checkbox" class="form-checkbox h-5 w-5 text-gray-600" checked=""><span class="ml-2 text-gray-700">Meinen Namen, meine E-Mail-Adresse und meine Website in diesem Browser speichern, bis ich wieder kommentiere.</span></label>'
+            ),
 			'class_submit'  => 'bg-primary text-white cursor-pointer rounded font-bold py-2 px-4',
-			'comment_field' => '<textarea id="comment" name="comment" class="bg-gray-200 w-full py-2 px-3" aria-required="true"></textarea>',
+			'comment_field' => '<textarea id="comment" name="comment" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" aria-required="true"></textarea>',
 		)
 	);
 	?>
