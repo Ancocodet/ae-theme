@@ -9,6 +9,7 @@
 
 <footer id="colophon" class="footer relative" role="contentinfo">
     <?php do_action( 'tailpress_footer' ); ?>
+
     <div class="hidden sm:block bg-gray-800">
         <div class=" max-w-6xl m-auto text-gray-500 flex flex-wrap justify-right">
             <div class="p-5 w-60">
