@@ -38,8 +38,8 @@
         <div class="flex pb-5 px-3 m-auto pt-5 border-t border-gray-700 text-gray-500 text-sm flex-col md:flex-row max-w-6xl">
             <div class="mt-2">&copy; 2018 - <?php echo date_i18n( 'Y' );?> Copyright by Ancozockt Environment</div>
             <div class="md:flex-auto md:flex-row-reverse mt-2 flex-row flex">
-                <a href="https://ancozockt.de/imprint/privacy" class="w-6 mx-5">Privacy</a>
-                <a href="https://ancozockt.de/imprint" class="w-6 mx-5">Imprint</a>
+                <a href="https://ancozockt.info/privacy" class="w-6 mx-5">Privacy</a>
+                <a href="https://ancozockt.info/imprint" class="w-6 mx-5">Imprint</a>
             </div>
         </div>
     </div>
