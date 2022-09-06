@@ -39,3 +39,7 @@ article > *:not(.entry-content), .entry-content > * {
         }
     }
 }
+
+.comments-area > * {
+    @apply mx-auto max-w-content;
+}
