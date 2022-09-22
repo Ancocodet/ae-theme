@@ -60,8 +60,8 @@ if ( post_password_required() ) {
 	<?php
 	comment_form(
 		array(
-			'class_submit'  => 'bg-purple text-white cursor-pointer rounded font-bold py-2 px-4 my-2 hover:bg-purple-dark focus:outline-none focus:shadow-outline',
-			'comment_field' => '<textarea id="comment" name="comment" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2.5" aria-required="true"></textarea>',
+			'class_submit'  => 'bg-primary text-white cursor-pointer rounded font-bold py-2 px-4 my-2 hover:bg-purple-dark focus:outline-none focus:shadow-outline',
+			'comment_field' => '<label for="comment" class="font-semibold text-sm text-gray-600 dark:text-gray-400 pb-1 block">' . __('Comment') . '</label><br\><textarea id="comment" name="comment" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2.5 w-full" aria-required="true"></textarea>',
             'fields' => array(
                 'author' => '<label for="author" class="font-semibold text-sm text-gray-600 dark:text-gray-400 pb-1 block">' . __('Name') . '</label><br\><input id="author" name="author" type="text" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5"/>',
                 'email' => '<label for="email" class="font-semibold text-sm text-gray-600 dark:text-gray-400 pb-1 block">' . __('E-Mail') . '</label><br\><input id="email" name="email" type="email" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5"/>',
