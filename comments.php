@@ -61,7 +61,7 @@ if ( post_password_required() ) {
 	comment_form(
 		array(
 			'class_submit'  => 'bg-primary text-white cursor-pointer rounded font-bold py-2 px-4 my-2',
-			'comment_field' => '<textarea id="comment" name="comment" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5" aria-required="true"></textarea>',
+			'comment_field' => '<textarea id="comment" name="comment" class="bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block p-2.5" aria-required="true"></textarea>',
 		)
 	);
 	?>
