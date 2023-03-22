@@ -3,3 +3,5 @@
 /.vscode
 
 /vendor/
+/resources/css/custom.css
+/css/
