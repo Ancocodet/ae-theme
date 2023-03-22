@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container w-screen h-full bg-default mt-20">
+<div class="container mb-8 mt-20 mx-auto">
 
 	<?php if ( have_posts() ) : ?>
 		<?php
