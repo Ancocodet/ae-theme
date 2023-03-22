@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 
-<div class="container mx-auto my-8">
+<div class="container w-full bg-default mt-16">
 
 	<?php if ( have_posts() ) : ?>
 		<?php
