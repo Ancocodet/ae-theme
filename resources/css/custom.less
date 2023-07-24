@@ -1,0 +1,127 @@
+article > *:not(.entry-content), .entry-content > * {
+    @apply mx-auto max-w-content;
+}
+
+.centered-content {
+    @apply mx-auto max-w-content;
+}
+
+#webmention-source {
+    @apply bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5;
+}
+
+.entry-content, .block-editor-block-list__layout {
+    h1 {
+        @apply text-2xl;
+    }
+
+    h2 {
+        @apply text-xl;
+    }
+
+    h3 {
+        @apply text-lg;
+    }
+
+    p, ul, ol {
+        a {
+            @apply text-blue-500 underline;
+
+            &:hover {
+                @apply no-underline;
+            }
+        }
+
+        @apply mb-8;
+    }
+
+    ul:not(.block-editor-block-variation-picker__variations) {
+        li {
+            @apply list-disc list-inside;
+        }
+    }
+
+    ol {
+        li {
+            @apply list-decimal list-inside;
+        }
+    }
+}
+
+@logo-color: #6964ff;
+@logo-background: #0e131a;
+@primary-color: rgba(105, 100, 255, 1);
+
+.text-logo {
+    color: @logo-color;
+}
+
+.bg-logo {
+    background-color: @logo-background;
+}
+
+.bg-default {
+    background-color: #f5f5f5;
+}
+
+.border-logo {
+    border-color: @logo-color;
+}
+
+body::-webkit-scrollbar {
+    z-index: 50;
+    width: 12px;
+}
+
+body::-webkit-scrollbar-track {
+    z-index: 50;
+    background: @logo-background;
+}
+
+body::-webkit-scrollbar-thumb {
+    z-index: 50;
+    background-color: @logo-color;
+    border-radius: 20px;
+    border: 3px solid @logo-color;
+}
+
+.bg-primary {
+    background-color: @primary-color !important;
+}
+
+.hover\:bg-primary:hover {
+    background-color: @primary-color !important;
+}
+
+.focus\:bg-primary:focus {
+    background-color: @primary-color !important;
+}
+
+.ring-primary {
+    --tw-ring-opacity: 1;
+    --tw-ring-color: @logo-background;
+}
+
+.focus\:ring-logo:focus  {
+    --tw-ring-color: @primary-color;
+}
+
+.generate-primary(10);
+
+.generate-primary(@n, @i: 1) when (@i =< @n) {
+    @darken: @i * 5;
+    .bg-primary-@{darken} {
+        background-color: darken(@primary-color, @darken) !important;
+    }
+    .hover\:bg-primary-@{darken}:hover {
+        background-color: darken(@primary-color, @darken) !important;
+    }
+    .focus\:bg-primary-@{darken}:focus {
+        background-color: darken(@primary-color, @darken) !important;
+    }
+    .focus\:ring-primary-@{darken}:focus {
+          --tw-ring-opacity: 1;
+          --tw-ring-color: darken(@primary-color, @darken);
+    }
+    .generate-primary(@n, @i + 1);
+}

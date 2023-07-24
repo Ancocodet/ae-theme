@@ -1,0 +1,23 @@
+@import "custom.css";
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.description {
+  ul {
+    @apply p-5 list-disc;
+  }
+  h1 {
+    @apply text-lg font-bold;
+  }
+  table {
+    @apply border-collapse w-full border border-slate-400 bg-white text-sm shadow-sm;
+    th {
+      @apply w-1/3 border border-slate-300 font-semibold p-4 text-slate-900 text-left;
+    }
+    td {
+      @apply border border-slate-300 p-4 text-slate-600;
+    }
+  }
+}

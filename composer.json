@@ -1,0 +1,12 @@
+{
+    "name": "ancocodet/ae-theme",
+    "version": "1.4.0",
+    "type": "wordpress-theme",
+    "authors": [
+        {
+            "name": "Ancozockt",
+            "email": "info@ancozockt.de"
+        }
+    ],
+    "require": {}
+}
