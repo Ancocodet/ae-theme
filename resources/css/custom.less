@@ -7,11 +7,17 @@ article > *:not(.entry-content), .entry-content > * {
 }
 
 #webmention-source {
-    @apply bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg focus:ring-purple-500 focus:border-purple-500 block w-full p-2.5;
+    @apply bg-gray-50 border border-gray-300 text-gray-900 sm:text-sm rounded-lg block w-full p-2.5;
+    &:focus {
+        @apply ring-purple-500 border-purple-500;
+    }
 }
 
 #webmention-submit {
-    @apply bg-primary text-white cursor-pointer rounded font-bold py-2 px-4 my-2 hover:bg-purple focus:outline-none focus:shadow-outline;
+    @apply bg-primary text-white cursor-pointer rounded font-bold py-2 px-4 my-2;
+    &:hover {
+        @apply bg-purple-500;
+    }
 }
 
 .entry-content, .block-editor-block-list__layout {
